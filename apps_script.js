@@ -60,8 +60,8 @@ function doGet (e) {
 
 async function sendMail (e) {
   MailApp.sendEmail({
-      to: 'nestorasangelopoulos@gmail.com',
+      to: 'angel.nephele@gmail.com',
       subject: 'Someone signed your guest book!',
-      htmlBody: '<div style="position: absolute;top: 0px;left: 0px;height: 100%;width: 100%;overflow: hidden;font-size: 2em;color: white;background: linear-gradient(210deg, #5bcefa, #7dc2ff, #9bb5ff, #b4a8fe, #cea0f5, #e49ee6, #f1a1d1, #f5a9b8);"><div style="margin: 10vw;"><h1><center>🎉🥳🎊</center></h1><h3><span style="color: #A020F0;">' + e[0] + '</span> says: <br><span style="color: #A020F0;">' + e[1] + '</span></h3><h5>Edit your guest book <a style="color: #A020F0; text-decoration: underline;" href="https://docs.google.com/spreadsheets/d/1KJ9tKrVin1UvbVa7jwdFHD2n2MmR3K1VEoW8dKrgTCE/edit?usp=sharing">here</a><br>Or view your website <a style="color: #A020F0; text-decoration: underline;" href="https://nestorasangelopoulos.github.io">here</a></h5></div>'
+      htmlBody: '<div style="position: absolute;top: 0px;left: 0px;height: 100%;width: 100%;overflow: hidden;font-size: 2em;color: white;background: linear-gradient(210deg, #5bcefa, #7dc2ff, #9bb5ff, #b4a8fe, #cea0f5, #e49ee6, #f1a1d1, #f5a9b8);"><div style="margin: 10vw;"><h1><center>🎉🥳🎊</center></h1><h3><span style="color: #A020F0;">' + e[0] + '</span> says: <br><span style="color: #A020F0;">' + e[1] + '</span></h3><h5>Edit your guest book <a style="color: #A020F0; text-decoration: underline;" href="https://docs.google.com/spreadsheets/d/1OAewvTpZkpeolsiOSyDYNt2b4rPUUL8JS2tGyw6PT1I/edit?usp=sharing">here</a><br>Or view your website <a style="color: #A020F0; text-decoration: underline;" href="https://nephele-angel.github.io">here</a></h5></div>'
     });
 }

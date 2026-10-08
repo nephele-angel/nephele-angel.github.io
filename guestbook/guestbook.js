@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwAlFYahY3MMbAYLAandgaVXXkJ02qWOodopTszZfiXPqrxeMMWzKTIJaB4zoyw6IRUMQ/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzpAScHeHMiSaIQun1pr2VV_3yxji1cbbkjrVWQfbHoHiaow6n_YQxApIqqo2jlrC4imA/exec';
 
 const form = document.getElementById('guestbook');
 
